@@ -5,5 +5,5 @@ spring:
     activate:
       on-profile: dev
 greeting-service:
-  greeting: "Hola"
-  default-value: "Mundo"
+  greeting: "Olá"
+  default-value: "Dev"
