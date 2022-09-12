@@ -1,12 +1,9 @@
 spring:
   application:
     name: greeting-service
-management:
-  endpoints:
-    web:
-      exposure:
-        include:
-          - '*'
+  config:
+    activate:
+      on-profile: qa
 greeting-service:
   greeting: "Hola"
   default-value: "Mundo"

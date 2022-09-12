@@ -1,6 +1,9 @@
 spring:
   application:
     name: greeting-service
+  config:
+    activate:
+      on-profile: perf
 greeting-service:
   greeting: "Hola"
   default-value: "Mundo"
